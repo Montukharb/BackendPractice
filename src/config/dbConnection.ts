@@ -16,28 +16,5 @@ export class dbConnection {
   
     };
 
-    //create schema and collection;
-
-  static userCollection = mongoose.model('users', new mongoose.Schema({
-    name:{
-        type:String,
-        require:true,
-    },
-    age:{
-        type:Number,
-        require:true,
-    },
-    email:{
-        type:String,
-        require:true,
-        unique:true,
-    },
-    lastmodifiedAt:{
-        type:Date,
-        default:Date.now
-    }
-  
-  }))
-
 }
-//# sourceMappingURL=dbConnection.js.map
+

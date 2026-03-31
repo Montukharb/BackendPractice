@@ -1,0 +1,77 @@
+src/
+└── app/
+    ├── core/
+    │   ├── interceptors/
+    │   │   ├── auth.interceptor.ts
+    │   │   └── error.interceptor.ts
+    │   ├── utility/
+    │   │   ├── date-utils.ts
+    │   │   └── string-utils.ts
+    │   └── validators/
+    │       ├── password-validator.ts
+    │       └── email-validator.ts
+    ├── guards/
+    │   ├── auth.guard.ts
+    │   └── admin.guard.ts
+    ├── shared/
+    │   ├── components/
+    │   │   ├── button/
+    │   │   │   ├── button.component.ts
+    │   │   │   └── button.component.html
+    │   │   └── modal/
+    │   │       ├── modal.component.ts
+    │   │       └── modal.component.html
+    │   ├── directives/
+    │   │   ├── autofocus.directive.ts
+    │   │   └── highlight.directive.ts
+    │   ├── pipes/
+    │   │   ├── date-format.pipe.ts
+    │   │   └── truncate.pipe.ts
+    │   └── services/
+    │       ├── notification.service.ts
+    │       └── storage.service.ts
+    ├── layout/
+    │   ├── header/
+    │   │   ├── header.component.ts
+    │   │   └── header.component.html
+    │   ├── footer/
+    │   │   ├── footer.component.ts
+    │   │   └── footer.component.html
+    │   └── sidebar/
+    │       ├── sidebar.component.ts
+    │       └── sidebar.component.html
+    ├── pages/
+    │   ├── login/
+    │   │   ├── login.component.ts
+    │   │   └── login.module.ts
+    │   ├── register/
+    │   │   ├── register.component.ts
+    │   │   └── register.module.ts
+    │   └── not-found/
+    │       ├── not-found.component.ts
+    │       └── not-found.module.ts
+    ├── features/
+    │   ├── dashboard/
+    │   │   ├── components/
+    │   │   │   └── dashboard-widget.component.ts
+    │   │   ├── pages/
+    │   │   │   └── dashboard-home.component.ts
+    │   │   ├── dashboard-routing.module.ts
+    │   │   └── dashboard.module.ts
+    │   └── products/
+    │       ├── components/
+    │       │   └── product-card.component.ts
+    │       ├── pages/
+    │       │   ├── product-list.component.ts
+    │       │   └── product-detail.component.ts
+    │       ├── services/
+    │       │   └── product.service.ts
+    │       ├── products-routing.module.ts
+    │       └── products.module.ts
+    ├── state/
+    │   ├── app.actions.ts
+    │   ├── app.reducer.ts
+    │   ├── app.effects.ts
+    │   └── app.selectors.ts
+    ├── app-routing.module.ts
+    └── app.component.ts
